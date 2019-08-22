@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .main{
+        height: 500px;
+        width: 100vw;
+        /* background-color: rgb(143, 34, 34); */
+        background-image: url("C:\\Users\\furka\\3D Objects\\8\\animation.html\\myroad.jpg");
+    }
+    .main .car #c1{
+        height: 300px;
+        width: 662px;
+         position: relative;
+        left: 1px;
+        transition: left 5s linear 0s;
+        animation-timing-function: ease;
+    }
+    .main .car #c1:hover{
+        left: 700px;
+    }
+
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .main .car #w1{
+        height: 93px;
+        width: 92px;
+        position: relative;
+        left: -558px;
+        top: -45px;
+        transform: rotate(0deg);
+        transition: transform 20s cubic-bezier(0.19, 1, 0.22, 1) 0s,left 20s linear 0s;
+        /* padding-left: 300px; */
+    }
+    .main .car #w1:hover{
+        transform: rotate(360deg);
+        left: 500px;
+    }
+    .main .car #w2{
+        height: 93px;
+        width: 92px;
+        position: relative;
+        left: -281px;
+        top: -45px;
+        transform: rotate(deg);
+        transition: transform 20s cubic-bezier(0.19, 1, 0.22, 1) 0s,left 20s linear 0s;
+    }
+    
+    .main .car #w2:hover{
+        transform: rotate(360deg);
+        left: 500px;
+    }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="car">
+            <img src="animation.html/my-car.png" alt="" id="c1">
+            <img src="animation.html/wheel.png" alt="" id="w1" >
+            <img src="animation.html/wheel.png" alt="" id="w2" >
+        </div>
+
+
+
+    </div>
+</body>
+</html>

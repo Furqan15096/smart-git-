@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+    .copter {
+        position: absolute;
+        /* top: 500px; */
+       
+    }
+    .copter{
+        animation: topanimation 8s linear 0s;
+        left: 0;
+        bottom: 0;
+    }
+    @keyframes topanimation {
+
+        0% {
+            bottom: 0;
+            left: 0;
+        }
+
+        30% {
+            bottom: 50vh;
+            left: 0;
+        }
+
+        50% {
+            left: 100vh;
+            bottom: 50vh;
+        }
+
+        100% {
+            left: 100vh;
+            bottom: 0;
+        }
+
+}
+    
+    </style>
+</head>
+<body>
+    <div class="copter">
+        <img src="./copter.jpg" alt="">
+    </div>
+</body>
+</html>
