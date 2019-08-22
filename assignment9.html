@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .main{
+            height: auto;
+            width: 100vw;
+           
+
+        }
+    .b1{
+        height: 150px;
+        width: 150px;
+        border: 1px solid black;
+       background-color: rgb(70, 204, 70); 
+       float: left;
+       margin-left: 5px;
+    }
+ #hover{
+     transition: transform 1s
+ }
+    
+    #hover:hover{
+        transform: scale(1.5,1.5);
+        /* width: 200px;
+        height: 200px; */
+    }
+    
+    
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="b1" id="hover"></div>
+        <div class="b1"></div>
+        <div class="b1"></div>
+        <div class="b1"></div>
+    </div>
+</body>
+</html>
